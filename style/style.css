@@ -1,0 +1,522 @@
+.header-logo{
+    height: 60px;
+    width: 90px;
+    margin-left: 90px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+h6{
+    margin-left: 175px;
+    margin-top: -46px;
+    font-size: 9px;
+    color: gray;
+    font-family: Arial;
+    font-family:Segoe UI;
+}
+h5{
+    margin-left: 54px;
+    font-family: Arial;
+    color:#383838;
+    font-size: 12px;
+    font-family:Segoe UI;
+}
+h4{
+    margin-left: 50px;
+    margin-top: 1px;
+    font-family: Arial;
+    color:#383838;
+    font-size: 15px;
+    font-weight: 600;
+    font-family:Segoe UI;
+}
+.signinBtn{
+    display: block;
+    margin-top: -8px;
+    background-color:white;
+    border:solid 1px #0276FD;
+    color: #0276FD;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 54px;
+    font-family:'Segoe UI';
+    
+  }
+.searchField{
+    display: block;
+    height: 28px;
+    width: 580px;
+    margin-left: 328px;
+    margin-top: -40px;
+    border: 1px solid #C8C8C8;
+}
+.searchBtn{
+    display: block;
+    width: 60px;
+    height: 32px;
+    margin-left: 908px;
+    margin-top: -32px;
+    cursor: pointer;
+}
+input::placeholder {
+    font-size: 16px;
+    font-family:Segoe UI
+  }
+  .videoLogo{
+      display: block;
+      width:20px ;
+      height: 20px;
+      margin-left: 1080px;
+      margin-top: -23px;
+      cursor: pointer;
+  }
+  .appLogo{
+    display: block;
+    width:25px ;
+    height: 25px;
+    margin-left: 1140px;
+    margin-top: -18px;
+    cursor: pointer;
+}
+    .signBtn{
+    display: block;
+    margin-left: 1240px;
+    margin-top: -25px;
+    background-color:white;
+    border:solid 1px #0276FD;
+    color: #0276FD;
+    cursor: pointer;
+    font-family:Segoe UI;
+}
+    .notificationLogo{
+    display: block;
+    width:22px ;
+    height: 22px;
+    margin-left: 1200px;
+    margin-top: -24px;
+    cursor: pointer;
+    }
+      .sidebar{
+        width: 100px;
+        height: 600px;
+        float: left; 
+        overflow-y:hidden;
+        scrollbar-color: #383838;
+        overflow-x: hidden;
+        scrollbar-width: thin;
+        white-space: nowrap;
+      }
+      
+      .sidebar:hover {
+        overflow-y:scroll;
+      }
+      .openbtn {
+        display: block;
+        font-size: 15px;
+        cursor: pointer;
+        color:gray;
+        margin-top: -30px;
+        border: none;
+        margin-left: 42px;
+      }
+      .homeBtn{
+        display: block;
+        width: 152px;
+        height: 32px;
+        margin-left: 20px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        padding-right: 90px;
+        cursor: pointer;
+        border:none;
+        background-color: white;
+        font-size: 20px;
+        color: #383838;
+        font-size: 16px;
+      }
+      .homeBtn:hover{
+        background-color: #D0D0D0;
+      }
+      .trendBtn{
+        display: block;
+        width: 152px;
+        height: 32px;
+        margin-left: 20px;
+        margin-top:20px;
+        margin-bottom: 16px;
+        padding-right: 90px;
+        cursor: pointer;
+        background-color:white;
+        border:none;
+        font-size: 20px;
+        color: #383838;
+        font-size: 16px;
+      }
+      .trendBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .subsBtn{
+        cursor: pointer;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 5px;
+        margin-top:20px;
+        margin-bottom: 28px;
+        font-family: serif;
+        color: #383838;
+        font-size: 16px;
+      }
+      .subsBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .libBtn{
+        cursor: pointer;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left:20px;
+        padding-bottom: 20px;
+        font-family: serif;
+        color: #383838;
+      }
+      .libBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .historyBtn{
+        cursor: pointer;
+        width: 180px;
+        height: 32px;
+        padding-right: 70px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: -5px;
+        font-family: serif;
+        color: #383838;
+      }
+      .historyBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .musicBtn{
+        cursor: pointer;
+        width: 180px;
+        height: 32px;
+        padding-right: 70px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 40px;
+        margin-top: -8px;
+        font-family: serif;
+        color: #383838;
+      }
+      .musicBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .sportBtn{
+        cursor: pointer;
+        width: 180px;
+        height: 32px;
+        padding-right: 70px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 40px;
+        margin-top: 5px;
+        font-family: serif;
+        color: #383838;
+      }
+      .sportBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .gameBtn{
+        cursor: pointer;
+        width: 180px;
+        height: 32px;
+        padding-right: 60px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 40px;
+        margin-top: 5px;
+        font-family: serif;
+        color: #383838;
+      }
+      .gameBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .newsBtn{
+        cursor: pointer;
+        width: 180px;
+        height: 32px;
+        padding-right: 70px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 38px;
+        margin-top: 5px;
+        font-family: serif;
+        color: #383838;
+      }
+      .newsBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .liveBtn{
+        cursor: pointer;
+        width: 180px;
+        height: 32px;
+        padding-right: 75px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 38px;
+        margin-top: 5px;
+        font-family: serif;
+        color: #383838;
+      }
+      .liveBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .lvideoBtn{
+        cursor: pointer;
+        width: 180px;
+        height: 32px;
+        padding-right: 60px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 50px;
+        margin-top: 5px;
+        font-family: serif;
+        color: #383838;
+      }
+      .lvideoBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .channelBtn{
+        cursor: pointer;
+        width: 220px;
+        height: 32px;
+        padding-right: 50px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 50px;
+        margin-top: 2px;
+        font-family: serif;
+        color: #383838;
+      }
+      .channelBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .liveeBtn{
+        cursor: pointer;
+        width: 180px;
+        height: 32px;
+        padding-right: 85px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 42px;
+        margin-top: -20px;
+        font-family: serif;
+        color: #383838;
+      }
+      .liveeBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .settingBtn{
+        cursor: pointer;
+        width: 180px;
+        height: 32px;
+        padding-right: 70px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 45px;
+        font-family: serif;
+        color: #383838;
+      }
+      .settingBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .reportBtn{
+        cursor: pointer;
+        width: 210px;
+        height: 32px;
+        padding-right: 55px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 45px;
+        font-family: serif;
+        color: #383838;
+      }
+      .reportBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .helpBtn{
+        cursor: pointer;
+        width: 210px;
+        height: 32px;
+        padding-right: 90px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 29px;
+        font-family: serif;
+        color: #383838;
+      }
+      .helpBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .feedbackBtn{
+        cursor: pointer;
+        width: 210px;
+        height: 32px;
+        padding-right: 55px;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 45px;
+        font-family: serif;
+        color: #383838;
+      }
+      .feedbackBtn:hover{
+        background-color:#E8E8E8;
+      }
+      .oppo{
+        height: auto;
+        width: auto;
+        padding-top: 20px;
+        padding-left: 20px;
+        cursor: pointer;
+      }
+      .adds{
+        height: 250px;
+        width:  430px;
+        padding-top: 20px;
+        padding-left: 20px;
+        cursor: pointer;
+      }
+      .content{
+        width: 1170px;
+      }
+      .overlay {
+        height: 100%;
+        width: 0%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color:white;
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+
+      .overlay .closebtn {
+        position: absolute;
+        top: -10px;
+        right: 10px;
+        font-size: 40px;
+      }
+      .homeBtn2{
+        display: block;
+        width: 152px;
+        height: 32px;
+        margin-left: 50px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-right: 90px;
+        cursor: pointer;
+        border:none;
+        background-color: white;
+        font-size: 18px;
+        color: #383838;
+        font-size: 16px;
+      }
+      .homeBtn2:hover{
+        background-color: #D0D0D0;
+      }
+      .trendBtn2{
+        display: block;
+        width: 152px;
+        height: 32px;
+        margin-left: 50px;
+        margin-top:20px;
+        margin-bottom: 2px;
+        padding-right: 90px;
+        cursor: pointer;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        color: #383838;
+        font-size: 16px;
+      }
+      .trendBtn2:hover{
+        background-color:#E8E8E8;
+      }
+      .subsBtn2{
+        cursor: pointer;
+        background-color:white;
+        border:none;
+        font-size: 18px;
+        margin-left: 45px;
+        margin-top:20px;
+        margin-bottom: 28px;
+        font-family: serif;
+        color: #383838;
+        font-size: 16px;
+      }
+      .subsBtn2:hover{
+        background-color:#E8E8E8;
+      }
+      .libBtn2{
+        cursor: pointer;
+        background-color:white;
+        border:none;
+        font-size: 16px;
+        margin-left:45px;
+        padding-bottom: 28px;
+        font-family: serif;
+        color: #383838;
+      }
+      .libBtn2:hover{
+        background-color:#E8E8E8;
+      }
+      .historyBtn2{
+        cursor: pointer;
+        width: 180px;
+        height: 32px;
+        padding-right: 40px;
+        background-color:white;
+        border:none;
+        font-size: 16px;
+        margin-left: 22px;
+        font-family: serif;
+        color: #383838;
+      }
+      .historyBtn2:hover{
+        background-color:#E8E8E8;
+      }
+      .header-logo2{
+        height: 60px;
+        width: 90px;
+        margin-left: 48px;
+        margin-top: -8px;
+        margin-bottom: -5px;
+        cursor: pointer;
+    }
+    
