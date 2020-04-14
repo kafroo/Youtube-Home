@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>YouTube</title>
+        <link rel="icon" type="png" href="E:\KAFR\Crafted Internet\WORK\Youtube Home\Images\logo.png">
+        <link rel="stylesheet" href="E:\KAFR\Crafted Internet\WORK\Youtube Home\style\style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css&#8221; />
+    </head>
+    <body>
+
+        <header>
+            <img class="header-logo" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\youtube.png" alt="YouTube-Logo">
+            <h6>EG</h6>
+            <input class="searchField" type="text" placeholder="  Search">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <button class="searchBtn" type="button" ><i class="fa fa-search"></i></button>
+            <img class="videoLogo" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\Video_camera_icon.png" alt="videoLogo">
+            <img class="appLogo" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\apps-icon.png" alt="appLogo">
+            <img class="notificationLogo" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\notification.png" alt="notiLogo">
+            <button class="signBtn"><i style="vertical-align: -6px;" class="material-icons">person</i>SIGN IN</button>
+            <button class="openbtn" onclick="openNav()">&#9776;</button>  
+        </header>
+
+        <div id="sidebar" class="sidebar"  >
+            <button class="homeBtn">  <i class="fa fa-home"><br>Home</i></button>
+            <button class="trendBtn"> <i class="fa fa-fire"><br>Trending</i></button>
+            <button class="subsBtn">  <i class="material-icons">subscriptions</i><br>Subscriptions</button>
+            <br>
+            <button class="libBtn" >  <i class="fa fa-play-circle"><br>Library</i></button>
+            <br>
+            <button class="historyBtn">  <i class="fa fa-history"><br>History</i></button>      
+        </div>
+
+        <div id="myNav" class="overlay"> 
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <img class="header-logo2" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\youtube.png" alt="YouTube-Logo">
+                <button class="homeBtn2"><i class="fa fa-home" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home</i></button>
+                <button class="trendBtn2"><i class="fa fa-fire">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trending</i></button>
+                <button class="subsBtn2"><i style="vertical-align: -4px;" class="material-icons">subscriptions</i>&nbsp;&nbsp;&nbsp;&nbsp;Subscriptions</button>
+                <hr align="left" width="90%">
+                <button class="libBtn2" ><i style="vertical-align: -4px;" class="material-icons">video_library</i>&nbsp;&nbsp;&nbsp;&nbsp;Library</button>
+                <br>
+                <button class="historyBtn2"><i style="vertical-align: -4px;"class="material-icons">history</i>&nbsp;&nbsp;&nbsp;&nbsp;History</button>
+                <hr align="left" width="90%">
+                <h5>Sign in to like videos,<br>comment, and subscribe.</h5>
+                <button  class="signinBtn"><i style="vertical-align: -4px;" class="material-icons">person</i>SIGN IN</button>   
+                <hr align="left" width="90%">
+                <h4>BEST OF YOUTUBE</h4>
+                <button class="musicBtn"><i  style="vertical-align: -4px;" class="material-icons">audiotrack</i>&nbsp;&nbsp;&nbsp;Music</button>
+                <br>
+                <button class="sportBtn"><i style="vertical-align: -4px;" class="material-icons">sports_soccer</i>&nbsp;&nbsp;&nbsp;Sports</button>
+                <br>
+                <button class="gameBtn"><i style="vertical-align: -4px;" class="material-icons">videogame_asset</i>&nbsp;&nbsp;&nbsp;Gaming</button>
+                <br>
+                <button class="newsBtn"><i style="vertical-align: -4px;" class="material-icons">menu_book</i>&nbsp;&nbsp;&nbsp;News</button>
+                <br>
+                <button class="liveBtn"><i style="vertical-align: -4px;"class="material-icons">live_tv</i>&nbsp;&nbsp;&nbsp;Live</button>
+                <br>
+                <button class="lvideoBtn"><i style="vertical-align: -4px;" class="material-icons">movie_filter</i>&nbsp;&nbsp;&nbsp;360 Video</button>
+                <br>
+                <hr align="left" width="90%">
+                <button class="channelBtn"><i style="vertical-align: -4px;" class="material-icons">add_circle_outline</i>&nbsp;&nbsp;&nbsp;Browse Channels</button>
+                <hr align="left" width="90%">
+                <h4>MORE FROM YOUTUBE</h4>
+                <button class="liveeBtn"><i style="vertical-align: -4px;" class="material-icons">live_tv</i>&nbsp;&nbsp;&nbsp;Live</button>
+                <hr align="left" width="90%">
+                <button class="settingBtn"><i style="vertical-align: -4px;"class="material-icons">settings</i>&nbsp;&nbsp;&nbsp;Settings</button>
+                <br>
+                <button class="reportBtn"><i style="vertical-align: -4px;" class="material-icons">flag</i>&nbsp;&nbsp;&nbsp;Report history</button>
+                <br>
+                <button class="helpBtn"><i style="vertical-align: -4px;" class="material-icons">help</i>&nbsp;&nbsp;&nbsp;Help</button>
+                <br>
+                <button class="feedbackBtn"><i style="vertical-align: -4px;" class="material-icons">feedback</i>&nbsp;&nbsp;&nbsp;Send feedback</button>
+                <hr align="left" width="90%">
+                <a style="text-align: center; font-family:Segoe UI; cursor: pointer;font-size: 12px; color:#383838;">About &nbsp; Press &nbsp; Copyright  <br>Contact us &nbsp; Creators <br>Advertise &nbsp; Developers </a>
+                <a style="font-family:Segoe UI; cursor: pointer; font-size: 12px;color:#383838; text-align: center;">Terms&nbsp;Privacy&nbsp;Policy & Safety <br> Test new features </a>
+                <p style="font-family:Segoe UI;color:#383838;font-size: 12px;">&copy; 2020 Hasssoon<p>      
+        </div>
+
+        <div id="pic" style="float: left;">
+            <img class="oppo" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\oppo.png" alt="oppo">
+            <img class="adds" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\adds.png" alt="adds">
+            <h2 style="font-family:Segoe UI; padding-left: 20px;">Recommended</h2>
+            <img class="content" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\content.png" alt="content">
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "250px";
+            }
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+    </body>
+</html>
