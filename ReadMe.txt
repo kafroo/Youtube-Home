@@ -1,6 +1,6 @@
-##YouTube Home Page 
+##YouTube Home Page## 
 
-##Firstly,
+##Firstly,##
  -Determine the document type
  -Html tag to start the code inside it
  -Head tag which include the title of the page which name "YouTube" and it's icon beside it
