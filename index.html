@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css&#8221; />
     </head>
-    <body>
+    <body id=body onclick="openNav" style="position: relative; display: block; z-index: 5;">
 
         <header>
             <img class="header-logo" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\youtube.png" alt="YouTube-Logo">
@@ -24,7 +24,7 @@
         </header>
 
         <div id="sidebar" class="sidebar"  >
-            <button class="homeBtn">  <i class="fa fa-home"><br>Home</i></button>
+            <button class="homeBtn">  <i  class="fa fa-home"><br>Home</i></button>
             <button class="trendBtn"> <i class="fa fa-fire"><br>Trending</i></button>
             <button class="subsBtn">  <i class="material-icons">subscriptions</i><br>Subscriptions</button>
             <br>
@@ -79,7 +79,7 @@
                 <p style="font-family:Segoe UI;color:#383838;font-size: 12px;">&copy; 2020 Hasssoon<p>      
         </div>
 
-        <div id="pic" style="float: left;">
+        <div id="pic" >
             <img class="oppo" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\oppo.png" alt="oppo">
             <img class="adds" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\adds.png" alt="adds">
             <h2 style="font-family:Segoe UI; padding-left: 20px;">Recommended</h2>
@@ -89,9 +89,11 @@
         <script>
             function openNav() {
                 document.getElementById("myNav").style.width = "250px";
+                document.getElementById("body").style.background="gray";
             }
             function closeNav() {
                 document.getElementById("myNav").style.width = "0%";
+                document.getElementById("body").style.background="white";
             }
         </script>
     </body>
