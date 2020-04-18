@@ -1,6 +1,7 @@
 .header-logo{
     height: 60px;
     width: 90px;
+    display: block;
     margin-left: 90px;
     margin-top: -8px;
     cursor: pointer;
@@ -140,7 +141,7 @@ input::placeholder {
         display: block;
         width: 152px;
         height: 32px;
-        margin-left: 20px;
+        margin-left: 16px;
         margin-top:20px;
         margin-bottom: 16px;
         padding-right: 90px;
@@ -159,7 +160,7 @@ input::placeholder {
         background-color:white;
         border:none;
         font-size: 18px;
-        margin-left: 5px;
+        margin-left: -1px;
         margin-top:20px;
         margin-bottom: 28px;
         font-family: serif;
@@ -174,8 +175,8 @@ input::placeholder {
         background-color:white;
         border:none;
         font-size: 18px;
-        margin-left:20px;
-        padding-bottom: 20px;
+        margin-left:16px;
+        padding-bottom: 22px;
         font-family: serif;
         color: #383838;
       }
@@ -189,8 +190,8 @@ input::placeholder {
         padding-right: 70px;
         background-color:white;
         border:none;
-        font-size: 18px;
-        margin-left: -5px;
+        font-size: 17px;
+        margin-left: -9px;
         font-family: serif;
         color: #383838;
       }
@@ -414,7 +415,7 @@ input::placeholder {
         background-color:white;
         overflow-x: hidden;
         transition: 0.5s;
-      }
+      }   
      
       .overlay a:hover, .overlay a:focus {
         color: #f1f1f1;
@@ -518,6 +519,11 @@ input::placeholder {
         margin-bottom: -5px;
         cursor: pointer;
     }
+    .fa-icon-inner-text {
+      font-family: Segoe UI;
+      
+  }
+  
 
   @media screen and (max-width:768px){
     .header-logo{
@@ -588,5 +594,30 @@ input::placeholder {
     width: 1000px;
   }
   }
-  
+  @media screen and (max-width:480px){
+    .oppo{
+      position:fixed;
+      height:250px;
+      width:500px;
+      padding-bottom: 20px;
+      padding-top: 50px;
+    }
+    .adds{ 
+      display: block; 
+      margin-left: 650px;
+      height:250px;
+      width:300px;
+      padding-top: 50px;
+    }
+    .content{
+      width: 1000px;
+      margin-top: 400px;
+    }
+    h2{
+      position: fixed;
+      margin-top: 340px;
+      margin-left: 98px;
+    }
     
+  }
+  
