@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>YouTube</title>
         <link rel="icon" type="png" href="E:\KAFR\Crafted Internet\WORK\Youtube Home\Images\logo.png">
         <link rel="stylesheet" href="E:\KAFR\Crafted Internet\WORK\Youtube Home\style\style.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css&#8221; />
     </head>
-    <body id=body onclick="openNav" style="position: relative; display: block; z-index: 5;">
+    <body id=body onclick="openNav" style="position: relative; display: block; z-index:1;">
 
         <header>
             <img class="header-logo" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\youtube.png" alt="YouTube-Logo">
@@ -24,13 +25,13 @@
         </header>
 
         <div id="sidebar" class="sidebar"  >
-            <button class="homeBtn">  <i  class="fa fa-home"><br>Home</i></button>
-            <button class="trendBtn"> <i class="fa fa-fire"><br>Trending</i></button>
-            <button class="subsBtn">  <i class="material-icons">subscriptions</i><br>Subscriptions</button>
+            <button class="homeBtn">  <i  class="fa fa-home">    <span class="fa-icon-inner-text"><br>Home</span></i></button>
+            <button class="trendBtn"> <i class="fa fa-fire">     <span class="fa-icon-inner-text"><br>Trending</span></i></button>
+            <button class="subsBtn">  <i class="material-icons">subscriptions</i> <span class="fa-icon-inner-text"><br>Subscriptions</span></button>
             <br>
-            <button class="libBtn" >  <i class="fa fa-play-circle"><br>Library</i></button>
+            <button class="libBtn" >  <i class="fa fa-play-circle"><span class="fa-icon-inner-text"><br>Library</span></i></button>
             <br>
-            <button class="historyBtn">  <i class="fa fa-history"><br>History</i></button>      
+            <button class="historyBtn">  <i class="fa fa-history"><span class="fa-icon-inner-text"><br>History</span></i></button>      
         </div>
 
         <div id="myNav" class="overlay"> 
@@ -79,7 +80,7 @@
                 <p style="font-family:Segoe UI;color:#383838;font-size: 12px;">&copy; 2020 Hasssoon<p>      
         </div>
 
-        <div id="pic" >
+        <div>
             <img class="oppo" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\oppo.png" alt="oppo">
             <img class="adds" src="E:\KAFR\Crafted Internet\WORK\Youtube Home Page\Images\adds.png" alt="adds">
             <h2 style="font-family:Segoe UI; padding-left: 20px;">Recommended</h2>
@@ -89,11 +90,9 @@
         <script>
             function openNav() {
                 document.getElementById("myNav").style.width = "250px";
-                document.getElementById("body").style.background="gray";
             }
             function closeNav() {
                 document.getElementById("myNav").style.width = "0%";
-                document.getElementById("body").style.background="white";
             }
         </script>
     </body>
